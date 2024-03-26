@@ -1,0 +1,92 @@
+body{
+  background-color: yellow;
+}
+#hatul{
+    background-color: rgb(206, 202, 202);
+    height: 850px;
+    width: 1900px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 1px; 
+    
+}
+
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  background-color: #fff;
+  margin: 20px;
+  width: 370px;
+  height: 555px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card img {
+  width: 370px;
+}
+
+.card-text {
+  text-align: left;
+  padding: 10px;
+}
+
+.card-text h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.card-text p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.btn {
+  display: inline-block;
+  background-color: white;
+  border: solid;
+  color: #000000;
+  margin: 80px 5px;
+  padding: 10px 20px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.btn:hover {
+  background-color: #333;
+}
+#block1{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  font-size: small;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  background-color: rgb(220, 223, 52);
+  width: 45px;
+  height: 21px;
+}
+#block2{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  font-size: small;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  background-color: rgb(220, 223, 52);
+  width: 100px;
+  height: 21px;
+}
+#block3{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  font-size: small;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  background-color: rgb(220, 223, 52);
+  width: 90px;
+  height: 21px;
+}
+#kap{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
